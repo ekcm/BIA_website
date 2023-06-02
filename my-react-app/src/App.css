@@ -2,8 +2,8 @@
   text-align: center;
 }
 
-.logo {
-  height: 200px;
+.App-logo {
+  height: 40vmin;
   pointer-events: none;
 }
 
@@ -36,3 +36,4 @@
     transform: rotate(360deg);
   }
 }
+
