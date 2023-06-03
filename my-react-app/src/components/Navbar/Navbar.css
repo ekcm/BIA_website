@@ -9,11 +9,10 @@
     height: 40px;
     position: sticky;
     top: 0px;
-    background-color: rgba(62, 62, 62, 0.7);
+    background-color: rgba(62, 62, 62);
     padding-left: 8%;
     padding-right: 8%;
     display: flex;
-    
   }
 
   .btn{

@@ -3,4 +3,40 @@
     height: 400px;
     object-fit: cover;
     object-position: 0 70%;
+    filter: brightness(60%);
+    
+}
+
+.container-fluid{
+    position: relative;
+    color: white;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 0px;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 5%;
+    left: 16px;
+    color:#3CBEB4;
+  }
+
+#box{
+    height: 40px;
+    background-color: #3E3E3E;
+    display: flex;
+    align-items: center;
+}
+
+h4{
+    margin: 0px;
+}
+
+#SMU{
+    color: #3CBEB4;
+}
+
+#vision{
+    margin-left: 16px;
 }
