@@ -5,7 +5,7 @@ import "../Navbar/Navbar.css";
 function NavBar() {
   return (
     <div class="navbar">
-      <img src={logo} className="logo" />
+      <img src={logo} className="logo" alt="" />
 
       <div>
         <div class="btn-group">

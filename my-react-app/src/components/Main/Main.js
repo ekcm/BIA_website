@@ -6,7 +6,7 @@ function Main_image() {
   return (
     <div>
       <div className="container-fluid">
-        <img src={image} className="image" />
+        <img src={image} className="image" alt=""/>
         <div class="bottom-left">
           <h2>We are</h2>
           <h1>SMUBIA</h1>
