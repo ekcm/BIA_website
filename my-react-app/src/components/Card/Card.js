@@ -8,13 +8,13 @@ function Card() {
         <h4 class="card-text">Members</h4>
       </div>
       <div class="container" id="card">
-        <h4 class="card-text">Members</h4>
+        <h4 class="card-text">Workshops</h4>
       </div>
       <div class="container" id="card">
-        <h4 class="card-text">Members</h4>
+        <h4 class="card-text">Projects</h4>
       </div>
       <div class="container" id="card">
-        <h4 class="card-text">Members</h4>
+        <h4 class="card-text">Partners</h4>
       </div>
     </div>
   );
