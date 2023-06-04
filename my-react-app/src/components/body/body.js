@@ -2,7 +2,7 @@ import React from "react";
 import "./Body.css";
 import Card from "../Card/Card";
 
-function body() {
+function Body() {
   return (
     <div>
         <h1>In 2022 / 2023, we:</h1>
@@ -10,4 +10,4 @@ function body() {
     </div>
   )
 }
-export default body;
+export default Body;
