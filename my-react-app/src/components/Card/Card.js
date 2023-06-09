@@ -10,6 +10,7 @@ function Card() {
     <div className="container-row">
       <div className="custom-container" id="card">
         <h4 className="card-text">Members</h4>
+        <br></br>
         <img src={member} alt="" className="images" />
         <p className="para">
           The largest student club for data analytics and data science with
@@ -18,6 +19,7 @@ function Card() {
       </div>
       <div className="custom-container" id="card">
         <h4 className="card-text">Workshops</h4>
+        <br></br>
         <img src={workshop} alt="" className="images" />
         <p className="para">
           Conducted
@@ -28,6 +30,7 @@ function Card() {
       </div>
       <div className="custom-container" id="card">
         <h4 className="card-text">Projects</h4>
+        <br></br>
         <img src={project} alt="" className="images" />
         <p className="para">
           Carried out our
@@ -38,6 +41,7 @@ function Card() {
       </div>
       <div className="custom-container" id="card">
         <h4 className="card-text">Partners</h4>
+        <br></br>
         <img src={partner} alt="" className="images" />
         <p className="para">
           Partnered with
