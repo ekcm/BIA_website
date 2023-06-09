@@ -54,7 +54,8 @@ function MainImage() {
         </div>
       </div>
       <div className="container-fluid" id="box">
-        <h4 id="vision">Our vision:</h4>
+        <h4 id="vision">Our vision: &nbsp;</h4>
+        <h4></h4>
         <h4 id="SMU">To build a sustainable ecosystem for analytics in SMU</h4>
       </div>
     </div>
