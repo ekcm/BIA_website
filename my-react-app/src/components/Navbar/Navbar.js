@@ -1,6 +1,7 @@
 import logo from "../../assets/BIA_Logo.png";
 import React from "react";
 import "../Navbar/Navbar.css";
+import { Outlet, Link } from "react-router-dom";
 
 function NavBar() {
   return (
@@ -9,9 +10,9 @@ function NavBar() {
 
       <div>
         <div class="btn-group">
-          <button class="btn">Home</button>
-          <button class="btn dropdown">What we do</button>
-          <button class="btn dropdown">Get involved</button>
+          <button class="btn"><Link to="/">Home</Link></button>
+          <button class="btn dropdown"><Link to="/whatwedo">What We Do</Link></button>
+          <button class="btn dropdown"><Link to="/getinvolved">GetInvolved</Link></button>
         </div>
         <button class="btn" id="prospectus">
           Download Prospectus

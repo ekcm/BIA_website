@@ -1,5 +1,15 @@
-const WhatWeDo = () => {
-    return <h1>What We Do</h1>;
-};
+import React from "react";
+import NavBar from "../components/Navbar/Navbar";
 
-export default WhatWeDo;
+
+const WhatWeDo = () => {
+    return <div>
+    
+    <NavBar/>
+    <h1>What we do</h1>
+    
+    
+    </div>;
+  };
+  
+  export default WhatWeDo; 
