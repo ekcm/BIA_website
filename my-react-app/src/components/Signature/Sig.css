@@ -20,6 +20,12 @@
   
   .social-links {
     display: flex;
+    margin-right: auto;
+  }
+
+  .flush-left {
+    display: flex;
+    align-items: left;
   }
   
   .social-links a {
@@ -52,4 +58,10 @@
   
   .logo-container {
     margin-bottom: 10px; /* Add margin to create spacing between logo and links */
+  }
+
+
+  .custom-link {
+    color: white;
+    /* text-decoration: none; */
   }

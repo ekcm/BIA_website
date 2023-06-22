@@ -1,7 +1,10 @@
-import logo from "../../assets/BIA_Logo.png";
 import React from "react";
 import "./Sig.css";
 import logo2 from "../../assets/BIA_Logo.png";
+import ig from "../../assets/instagram.png"
+import linkedin from "../../assets/linkedin.png"
+import { auto } from "@popperjs/core";
+
 
 export default function Sig() {
   return (
@@ -10,27 +13,31 @@ export default function Sig() {
         <div className="logo-container">
           <img src={logo2} className="logo-image" alt="" />
         </div>
-        <div className="social-links">
+        <div className="social-links flush-left">
           <a
-            href="https://www.linkedin.com"
+            href="https://www.linkedin.com/company/smubia/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
-              src="path/to/linkedin.png"
+              src={linkedin}
               alt="LinkedIn"
               className="social-icon"
+              width={30}
+              height={auto}
             />
           </a>
           <a
-            href="https://www.instagram.com"
+            href="https://www.instagram.com/smu.bia/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
-              src="path/to/instagram.png"
+              src={ig}
               alt="Instagram"
               className="social-icon"
+              width={30}
+              height={auto}
             />
           </a>
         </div>
@@ -60,6 +67,7 @@ export default function Sig() {
       <div className="bar-items">
         <h3 className="bar-item">Where to find us</h3>
         <div className="bar-items-comps">
+          <a href="https://goo.gl/maps/FbAHdtdAouhEmrNF6" class="custom-link">
           <p>
             Institute of Innovation & Entrepreneurship
             <br />
@@ -71,6 +79,7 @@ export default function Sig() {
             <br />
             Singapore 178908
           </p>
+          </a>
         </div>
       </div>
     </footer>
