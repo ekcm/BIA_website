@@ -1,0 +1,10 @@
+#box {
+    height: 40px;
+    background-color: #3CBEB4;
+    display: flex;
+    align-items: center;
+  }
+
+  h5{
+    margin-left: 16px;
+  }

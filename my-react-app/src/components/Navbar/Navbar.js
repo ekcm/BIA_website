@@ -12,7 +12,7 @@ function NavBar() {
         <div class="btn-group">
           <button class="btn"><Link to="/">Home</Link></button>
           <button class="btn dropdown"><Link to="/whatwedo">What We Do</Link></button>
-          <button class="btn dropdown"><Link to="/getinvolved">GetInvolved</Link></button>
+          <button class="btn dropdown"><Link to="/getinvolved">Get Involved</Link></button>
         </div>
         <button class="btn" id="prospectus">
           Download Prospectus

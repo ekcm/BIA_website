@@ -26,26 +26,13 @@ export default function Home() {
     },
   ];
 
-
-  // return (
-  //   <div>
-  //     <NavBar />
-  //     <Main />
-  //     <Body />
-      
-  //     <Card />
-  //     <Sig />
-  //   </div>
-  // );
-
   return React.createElement(
     "div",
     {},
     <NavBar />,
     <Main />,
     <Body />,
-    <Card items={card}/>
-//     React.createElement(Expenses, {items: expenses})
+    <Sig />
   );
 // }
 
