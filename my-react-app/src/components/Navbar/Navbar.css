@@ -25,8 +25,13 @@
   color: white;
 }
 
-.btn:hover {
+a:hover {
   color: #979797;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
 
 #prospectus {

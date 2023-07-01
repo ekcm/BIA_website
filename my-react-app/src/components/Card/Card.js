@@ -5,7 +5,7 @@ import workshop from "../../assets/Home_workshops.jpg";
 import project from "../../assets/Home_projects.jpg";
 import partner from "../../assets/Get_involved_main.jpg";
 
-function Card() {
+function Card(props) {
   return (
     <div className="container-row">
       <div className="custom-container" id="card">
