@@ -1,6 +1,7 @@
 import React from "react";
 import "./Body.css";
 import Card from "../Card/Card";
+import Partners from "../Partners/Partners";
 import member from "../../assets/Home_members.jpg";
 import workshop from "../../assets/Home_workshops.jpg";
 import project from "../../assets/Home_projects.jpg";
@@ -50,7 +51,10 @@ averaging 60 participants per workshop! Find out more about our curriculum works
         </div>
       </div>
 
+      <div>
       <h1>Our Partners:</h1>
+      <Partners/>
+      </div>
     </div>
   );
 }
