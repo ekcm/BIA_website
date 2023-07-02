@@ -53,7 +53,7 @@ function MainImage() {
           <h1>SMUBIA</h1>
         </div>
       </div>
-      <div className="container-fluid" id="box">
+      <div className="container-fluid" id="main-box">
         <h4 id="vision">Our vision: &nbsp;</h4>
         <h4 id="SMU">To build a sustainable ecosystem for analytics in SMU</h4>
       </div>

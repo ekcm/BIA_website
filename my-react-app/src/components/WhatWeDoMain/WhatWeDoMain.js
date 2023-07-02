@@ -1,6 +1,6 @@
  import React from "react";
 import "../WhatWeDoMain/WhatWeDoMain.css";
-import image from "../../mainpics/Home_main.jpg";
+import image from "../../mainpics/What_we_do_DAP1.jpg";
 
 function Main_image() {
   return (
@@ -11,7 +11,7 @@ function Main_image() {
           <h1>What We Do</h1>
         </div>
       </div>
-      <div className="container-fluid" id="box">
+      <div className="container-fluid" id="what-we-do-box">
         <h5 id="vision" >We engage our members by organizing skills based workshops suitable for members of any background</h5>
       </div>
     </div>

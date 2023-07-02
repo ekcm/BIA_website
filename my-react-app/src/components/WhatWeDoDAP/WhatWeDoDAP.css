@@ -1,3 +1,9 @@
+.container-row {
+  display: flex;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
 #box {
     height: 40px;
     background-color: #3CBEB4;
@@ -7,4 +13,25 @@
 
   h5{
     margin-left: 16px;
+  }
+
+  #block{
+    max-width: 50%;
+    margin-top: 0px;
+  }
+
+  .DAP_image{
+    width: 60%;
+    height: 250px;
+    object-fit: cover;
+    object-position: 0 70%;
+    border-radius: 10px;
+    vertical-align: middle;
+  }
+
+  .block-text {
+    text-align: center;
+    margin-top: 10px;
+    color: #3CBEB4;
+    font-weight: bold;
   }

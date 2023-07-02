@@ -5,6 +5,9 @@ import member from "../../assets/Home_members.jpg";
 import workshop from "../../assets/Home_workshops.jpg";
 import project from "../../assets/Home_projects.jpg";
 import partner from "../../assets/Get_involved_main.jpg";
+import Workshop_image1 from "../../assets/What_we_do_workshops1.jpg";
+import Workshop_image2 from "../../assets/What_we_do_workshops2.jpg";
+import Workshop_image3 from "../../assets/What_we_do_workshops3.jpg";
 
 function WhatWeDoBody() {
   return (
@@ -16,7 +19,7 @@ function WhatWeDoBody() {
         <div className="custom-container" id="card">
           <h4 className="card-text">Introductory</h4>
           <br></br>
-          <img src={member} alt="" className="images" />
+          <img src={Workshop_image1} alt="" className="images" />
           <p className="para">
           Our curriculum directors organize introductory workshops that cater to the members of all backgrounds and skill-level
           </p>
@@ -24,7 +27,7 @@ function WhatWeDoBody() {
         <div className="custom-container" id="card">
           <h4 className="card-text">Intermediate</h4>
           <br></br>
-          <img src={workshop} alt="" className="images" />
+          <img src={Workshop_image2} alt="" className="images" />
           <p className="para">
           Our curriculum directors organize intermediate workshops that cater to members who would like to further their technical knowledge
           </p>
@@ -32,7 +35,7 @@ function WhatWeDoBody() {
         <div className="custom-container" id="card">
           <h4 className="card-text">Industry Partners</h4>
           <br></br>
-          <img src={project} alt="" className="images" />
+          <img src={Workshop_image3} alt="" className="images" />
           <p className="para">
           We also welcome industry partners to give introductory lectures
           </p>
