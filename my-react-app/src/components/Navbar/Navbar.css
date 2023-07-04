@@ -3,6 +3,7 @@
   width: auto; /* Adjust the width automatically based on the height */
   object-fit: contain;
   opacity: 100%;
+  position: sticky;
 }
 
 .navbar {
@@ -13,9 +14,11 @@
   background-color: rgba(62, 62, 62);
   padding-left: 8%;
   padding-right: 8%;
+  padding-top: 8px;
   display: flex;
   justify-content: space-between; /* Aligns elements horizontally */
   align-items: center; /* Centers elements vertically */
+  z-index: 10;
 }
 
 .btn {
@@ -45,4 +48,45 @@ a {
 
 .navbar .btn {
   align-self: center; /* Aligns the buttons to the middle horizontal line of the navbar */
+}
+
+.mobile_menu_btn {
+  display: none;
+}
+
+@media screen and (max-width: 720px) {
+
+  .mobile_menu_btn {
+    display: flex;
+    position: sticky;
+    right: 1rem;
+    cursor: pointer;
+    z-index: 10;
+  }
+
+  .btn_menu {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    left: -100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(62, 62, 62);
+    transition: left 1s;
+    opacity: 95%;
+    z-index: 10;
+  }
+
+  .btn {
+    font-size: 1rem;
+  }
+
+  .active {
+    left: 0;
+  }
+
 }

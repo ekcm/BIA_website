@@ -16,7 +16,7 @@
   
   .bottom-left {
     position: absolute;
-    bottom: 5%;
+    padding-bottom: 16px;
     left: 16px;
     color: #3CBEB4;
   }
