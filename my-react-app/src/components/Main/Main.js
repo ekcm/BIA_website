@@ -49,13 +49,13 @@ function MainImage() {
     <div className="container-fluid">
       <img src={images[currentIndex]} className="image" alt="SMUBIA Logo" />
       <div className="bottom-left">
-        <h2>We are</h2>
-        <h1>SMUBIA</h1>
+        <p id ="weare">We are</p>
+        <p id="smubia">SMUBIA</p>
       </div>
 
-      <div id="main-box">
-        <h4 id="vision">Our vision: &nbsp;</h4>
-        <h4 id="SMU">To build a sustainable ecosystem for analytics in SMU</h4>
+      <div className="main-box">
+        <p id ="vision">Our vision:</p>
+        <p id="SMU">To build a sustainable ecosystem for analytics in SMU</p>
       </div>
     </div >
   );

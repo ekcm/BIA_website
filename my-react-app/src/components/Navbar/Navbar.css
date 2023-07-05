@@ -14,7 +14,6 @@
   background-color: rgba(62, 62, 62);
   padding-left: 8%;
   padding-right: 8%;
-  padding-top: 8px;
   display: flex;
   justify-content: space-between; /* Aligns elements horizontally */
   align-items: center; /* Centers elements vertically */
@@ -62,6 +61,7 @@ a {
     right: 1rem;
     cursor: pointer;
     z-index: 10;
+    color: white;
   }
 
   .btn_menu {
@@ -87,6 +87,7 @@ a {
 
   .active {
     left: 0;
+    overflow: hidden;
   }
 
 }
