@@ -11,7 +11,7 @@ function Body() {
   return (
     <div>
       <div>
-        <h1>In 2022 / 2023, we:</h1>
+        <h1 style={{"padding-top": 10}}>In 2022 / 2023, we:</h1>
       </div>
       <div className="container-row">
         <div className="custom-container" id="card">

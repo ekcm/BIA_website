@@ -9,6 +9,8 @@
     padding-top: 1%;
     display: flex;
     justify-content: space-between; /* Aligns elements horizontally */
+
+    overflow:hidden;
   }
 
   .logo-image {
