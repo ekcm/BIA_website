@@ -4,17 +4,22 @@ import image from "../../mainpics/What_we_do_DAP1.jpg";
 
 function Main_image() {
   return (
-    <div>
-      <div className="container-fluid">
-        <img src={image} className="image" alt=""/>
-        <div class="bottom-left">
-          <h1>What We Do</h1>
-        </div>
-      </div>
-      <div className="container-fluid" id="what-we-do-box">
-        <h5 id="vision" >We engage our members by organizing skills based workshops suitable for members of any background</h5>
-      </div>
+  <div className="container-fluid">
+    <img src={image} className="image" alt=""/>
+
+    <div className="bottom-left">
+      <p id ="filler">filler</p>
+      <p id="what-we-do">What We Do</p>
     </div>
+
+      <div className="main-box">
+          <p id="workshops">
+          We engage our members by organizing
+          <span className="bold-text"> skills based workshops </span>
+          suitable for members of any background
+          </p>
+      </div>
+  </div >
   );
 }
 

@@ -7,7 +7,7 @@ function GetInvolvedMain() {
   return (
 
     <div className="container-fluid">
-      <img src={getInv} className="getInv" alt="getInv Logo" />
+      <img src={getInv} className="getInv" alt="" />
       <div className="bottom-left">
         <p id ="filler">filler</p>
         <p id="get-involved">Get Involved</p>
@@ -17,7 +17,7 @@ function GetInvolvedMain() {
             <p id="DoMore">
             We are always on the lookout for ways to
             <span className="bold-text"> do more </span>
-            for our members!
+            for our members
             </p>
         </div>
     </div >
