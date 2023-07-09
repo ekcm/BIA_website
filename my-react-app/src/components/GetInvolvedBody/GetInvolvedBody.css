@@ -1,0 +1,77 @@
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+
+.getinv-para {
+  text-align: center;
+}
+
+.datathon-container-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .datathon-custom-container {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(170, 170, 170, 0.5);
+    background-color: #efefef;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .datathon-card-text {
+    text-align: center;
+    margin-top: 10px;
+    color: #3CBEB4;
+    font-weight: bold;
+  }
+
+  #box {
+      height: 40px;
+      background-color: #3CBEB4;
+      display: flex;
+      align-items: center;
+    }
+  
+    .datathon-images{
+      width: 90%;
+      height: 250px;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .GetInvImg{
+      width: 60%;
+      height: 250px;
+      object-fit: cover;
+      object-position: 0 70%;
+      border-radius: 10px;
+      vertical-align: middle;
+    }
+  
+    .block-text {
+      text-align: center;
+      margin-top: 10px;
+      color: #3CBEB4;
+      font-weight: bold;
+    }
+
+    @media (max-width: 768px) {
+      /* Apply the following styles only for screens with a maximum width of 768px (adjust the value as needed) */
+      .datathon-container-row {
+        flex-direction: column;
+        align-items: center;
+      }
+    }

@@ -1,11 +1,17 @@
 import React from "react";
 import NavBar from "../components/Navbar/Navbar";
+// import Body from "../components/Body/Body";
+import Sig from "../components/Signature/Sig";
+import GetInvolvedMain from "../components/GetInvolvedMain/GetInvolvedMain";
+import GetInvolvedBody from "../components/GetInvolvedBody/GetInvolvedBody";
 
-const GetInvolved = () => {
-    return <div>
-        <NavBar />
-        <h1>GetInvolved</h1>
-        </div>
+export default function GetInvolved() {
+  return React.createElement(
+    "div",
+    {},
+    <NavBar />,
+    <GetInvolvedMain />,
+    <GetInvolvedBody/>,
+    <Sig />
+  );
 };
-
-export default GetInvolved;
