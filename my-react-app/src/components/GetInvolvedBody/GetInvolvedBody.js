@@ -24,6 +24,7 @@ export default function GetInvolvedBody() {
             <h4 className="datathon-card-text">Fireside Chat</h4>
             <br></br>
             <img src={Datathon_img1} alt="" className="datathon-images" />
+            <br></br>
             <p className="getinv-para">
             We invited guests from Prudential, Alibaba Cloud, and Alteryx to share with us their trends and insights they have seen in their respective industries!
             </p>
@@ -32,6 +33,7 @@ export default function GetInvolvedBody() {
             <h4 className="datathon-card-text">Data Workshops</h4>
             <br></br>
             <img src={Datathon_img2} alt="" className="datathon-images" />
+            <br></br>
             <p className="getinv-para">
             In collaboration with Alteryx, Tableau and foodpanda, we carried out a series of workshops to prepare participants for our upcoming Data Challenges!
             </p>
@@ -40,6 +42,7 @@ export default function GetInvolvedBody() {
             <h4 className="datathon-card-text">Data Challenges</h4>
             <br></br>
             <img src={Datathon_img3} alt="" className="datathon-images" />
+            <br></br>
             <p className="getinv-para">
             86 participants challenged themselves to solve the problem statement using Alteryx and Tableau platforms!
             </p>

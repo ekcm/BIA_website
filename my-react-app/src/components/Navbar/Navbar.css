@@ -53,7 +53,7 @@ a {
   display: none;
 }
 
-@media screen and (max-width: 720px) {
+@media (max-width: 768px) {
 
   .mobile_menu_btn {
     display: flex;
