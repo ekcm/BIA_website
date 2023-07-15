@@ -1,4 +1,4 @@
-import React from "react";
+import {React, useEffect, useState} from "react";
 import "../WhatWeDoDAP/WhatWeDoDAP.css";
 import DAP_image1 from "../../assets/What_we_do_DAP1.jpg";
 import DAP_image2 from "../../assets/What_we_do_DAP2.jpg";
@@ -7,6 +7,14 @@ import Workshop_image2 from "../../assets/What_we_do_workshops2.jpg";
 import Workshop_image3 from "../../assets/What_we_do_workshops3.jpg";
 
 function DAP() {
+  // const [currentIndex, setCurrentIndex] = useState(0);
+
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     setCurrentIndex((prevIndex) => (prevIndex + 1) % 2);
+  //   }, 3000);
+  //   return () => clearInterval(interval);
+  // }, []);
   return (
     <div>
       <div className="container-fluid" id="box">

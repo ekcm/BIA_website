@@ -13,7 +13,7 @@ function Main_image() {
     </div>
 
       <div className="main-box">
-          <p id="workshops">
+          <p id="workshops" style={{"font-size": 20}}>
           We engage our members by organizing
           <span className="bold-text"> skills based workshops </span>
           suitable for members of any background

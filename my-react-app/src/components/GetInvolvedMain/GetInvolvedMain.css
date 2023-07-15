@@ -44,7 +44,7 @@
   
   .bold-text {
     position: relative;
-    font-size: 1.25rem;
+    /* font-size: 1.25rem; */
     font-weight: Bold;
     color: #3CBEB4;
 
@@ -52,7 +52,7 @@
 
   #DoMore {
     position: relative;
-    font-size: 1.25rem;
+    /* font-size: 1.25rem; */
     font-weight: Bold;
     margin-left: 16px;
     margin-right: 16px;

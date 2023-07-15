@@ -14,7 +14,7 @@ function GetInvolvedMain() {
       </div>
 
         <div className="main-box">
-            <p id="DoMore">
+            <p id="DoMore" style={{"font-size": 20}}>
             We are always on the lookout for ways to
             <span className="bold-text"> do more </span>
             for our members
