@@ -69,7 +69,7 @@ a {
     position: fixed;
     flex-direction: column;
     justify-content: center;
-    left: -100%;
+    left: -100vw;
     top: 0;
     bottom: 0;
     right: 0;
