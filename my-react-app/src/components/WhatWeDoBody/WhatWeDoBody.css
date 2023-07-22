@@ -26,6 +26,10 @@ h1{
     align-items: center;
 }
 
+#workshop-row{
+    margin-top: 12px;
+}
+
 @media (max-width: 768px) {
     .container-row{
         flex-direction: column;

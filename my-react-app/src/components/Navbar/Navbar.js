@@ -21,16 +21,11 @@ function NavBar() {
             <button class="btn"><Link to="/">Home</Link></button>
             <button class="btn dropdown"><Link to="/whatwedo">What We Do</Link></button>
             <button class="btn dropdown"><Link to="/getinvolved">Get Involved</Link></button>
+            <a href={prospectus} download id="prospectus-text">
             <button class="btn" id="prospectus">
-              <Link 
-                to={prospectus}
-                download="SMUBIA_prospectus"
-                target="_blank"
-                rel="noreferrer"
-              >
                 Download Prospectus
-              </Link>
             </button>
+            </a>
         </div>
       </nav>
       <div onClick={() => setNav(!nav)} className="mobile_menu_btn">

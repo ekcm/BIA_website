@@ -20,8 +20,8 @@ h1 {
 }
 
 
-.custom-container:hover {
-  background-color: rgb(236, 236, 236);
+#card:hover {
+  background-color: rgb(255, 255, 255);
 }
 
 .card-text {
