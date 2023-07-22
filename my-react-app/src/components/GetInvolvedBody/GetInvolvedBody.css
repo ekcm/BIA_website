@@ -72,6 +72,15 @@ h1 {
   font-weight: bold;
 }
 
+#datathon-card:hover{
+  background-color: rgb(255, 255, 255);
+}
+
+
+#networking-night-row, #bia-night-row{
+  justify-content: center;
+}
+
 @media (max-width: 992px) {
 
   /* Apply the following styles only for screens with a maximum width of 992px (adjust the value as needed) */
