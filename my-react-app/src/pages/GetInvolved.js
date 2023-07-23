@@ -8,7 +8,7 @@ import GetInvolvedBody from "../components/GetInvolvedBody/GetInvolvedBody";
 export default function GetInvolved() {
   return React.createElement(
     "div",
-    {},
+    { id: "top" },
     <NavBar />,
     <GetInvolvedMain />,
     <GetInvolvedBody/>,

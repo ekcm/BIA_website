@@ -11,7 +11,7 @@ const WhatWeDo = () => {
 
   return React.createElement(
     "div",
-    {},
+    {id: 'top'},
     <NavBar />,
     <WhatWeDoMain />,
     <WhatWeDoBody />,

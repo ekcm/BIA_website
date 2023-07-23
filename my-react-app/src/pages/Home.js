@@ -9,7 +9,7 @@ export default function Home() {
 
   return React.createElement(
     "div",
-    {},
+    {id:'top'},
     <NavBar />,
     <Main />,
     <Body />,

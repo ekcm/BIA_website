@@ -4,6 +4,7 @@ import logo2 from "../../assets/BIA_Logo.png";
 import ig from "../../assets/instagram.png"
 import linkedin from "../../assets/linkedin.png"
 import { auto } from "@popperjs/core";
+import { HashLink as Link } from 'react-router-hash-link';
 
 
 export default function Sig() {
@@ -43,25 +44,25 @@ export default function Sig() {
         </div>
       </div>
       <div className="bar-items">
-        <h3 className="bar-item">Home</h3>
+      <Link to="/#top"><h3 className="bar-item">Home</h3></Link>
         <div className="bar-items-comps">
-          <p>We are SMUBIA</p>
-          <p>What we achieved</p>
+        <p><Link to="/#top">We are SMUBIA</Link></p>
+        <p><Link to="/#top">What we achieved</Link></p>
         </div>
       </div>
       <div className="bar-items">
-        <h3 className="bar-item">What we do</h3>
+      <Link to="/WhatWeDo#top"><h3 className="bar-item">What we do</h3></Link>
         <div className="bar-items-comps">
-          <p>Workshops</p>
-          <p>Data Associate Programme</p>
-          <p>Featured projects</p>
+        <p><Link to="/WhatWeDo#top">Workshops</Link></p>
+        <p><Link to="/WhatWeDo#top">Data Associate Programme</Link></p>
+        <p><Link to="/WhatWeDo#top">Featured projects</Link></p>
         </div>
       </div>
       <div className="bar-items">
-        <h3 className="bar-item">Get involved</h3>
+      <Link to="/GetInvolved#top"><h3 className="bar-item">Get involved</h3></Link>
         <div className="bar-items-comps">
-          <p>Past events with companies</p>
-          <p>What we need help with</p>
+        <p><Link to="/GetInvolved#top">Past events with companies</Link></p>
+        <p><Link to="/GetInvolved#top">What we need help with</Link></p>
         </div>
       </div>
       <div className="bar-items">
