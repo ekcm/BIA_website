@@ -2,6 +2,7 @@ import logo from "../../assets/BIA_Logo.png";
 import { React, useState } from "react";
 import "../Navbar/Navbar.css";
 import { Outlet, Link } from "react-router-dom";
+import prospectus from "../../assets/SMUBIA_Prospectus.pdf"
 
 import {
   AiOutlineMenu,
@@ -20,9 +21,11 @@ function NavBar() {
             <button class="btn"><Link to="/">Home</Link></button>
             <button class="btn dropdown"><Link to="/whatwedo">What We Do</Link></button>
             <button class="btn dropdown"><Link to="/getinvolved">Get Involved</Link></button>
+            <a href={prospectus} download id="prospectus-text">
             <button class="btn" id="prospectus">
-              Download Prospectus
+                Download Prospectus
             </button>
+            </a>
         </div>
       </nav>
       <div onClick={() => setNav(!nav)} className="mobile_menu_btn">

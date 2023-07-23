@@ -15,7 +15,7 @@ function WhatWeDoBody() {
       <div>
         <h1>Our workshops</h1>
       </div>
-      <div className="container-row">
+      <div className="container-row" id="workshop-row">
         <div className="custom-container" id="card">
           <h4 className="card-text">Introductory</h4>
           <br></br>

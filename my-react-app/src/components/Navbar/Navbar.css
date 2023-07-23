@@ -53,7 +53,11 @@ a {
   display: none;
 }
 
-@media screen and (max-width: 720px) {
+#prospectus-text{
+  text-align: center;
+}
+
+@media (max-width: 768px) {
 
   .mobile_menu_btn {
     display: flex;
@@ -69,7 +73,7 @@ a {
     position: fixed;
     flex-direction: column;
     justify-content: center;
-    left: -100%;
+    left: -100vw;
     top: 0;
     bottom: 0;
     right: 0;
@@ -91,3 +95,4 @@ a {
   }
 
 }
+
