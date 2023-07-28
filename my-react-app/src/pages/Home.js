@@ -13,7 +13,7 @@ export default function Home() {
     <NavBar />,
     <Main />,
     <Body />,
-    <Sig />
+    // <Sig />
   );
 // }
 
