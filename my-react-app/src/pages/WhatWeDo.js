@@ -16,7 +16,7 @@ const WhatWeDo = () => {
     <WhatWeDoMain />,
     <WhatWeDoBody />,
     <WhatWeDoDAP />,
-    // <Sig />
+    <Sig />
   );
 
   };

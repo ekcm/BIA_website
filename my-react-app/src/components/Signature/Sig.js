@@ -43,7 +43,7 @@ export default function Sig() {
             />
           </a>
           <a
-            href="https://www.instagram.com/smu.bia/"
+            href="mailto: bia@sa.smu.edu.sg"
             target="_blank"
             rel="noopener noreferrer"
           >

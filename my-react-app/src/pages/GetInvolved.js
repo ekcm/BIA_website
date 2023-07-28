@@ -11,6 +11,6 @@ export default function GetInvolved() {
     <NavBar />,
     <GetInvolvedMain />,
     <GetInvolvedBody/>,
-    // <Sig />
+    <Sig />
   );
 };
