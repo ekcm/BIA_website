@@ -13,7 +13,7 @@ function WhatWeDoBody() {
   return (
     <div>
       <div>
-        <h1>Our workshops</h1>
+        <h1 id='ourworkshops'>Our workshops</h1>
       </div>
       <div className="container-row" id="workshop-row">
         <div className="custom-container" id="card">
