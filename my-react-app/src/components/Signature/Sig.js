@@ -2,6 +2,7 @@ import React from "react";
 import "./Sig.css";
 import logo2 from "../../assets/BIA_Logo.png";
 import ig from "../../assets/instagram.png"
+import email from "../../assets/email.png"
 import linkedin from "../../assets/linkedin.png"
 import { auto } from "@popperjs/core";
 import { HashLink as Link } from 'react-router-hash-link';
@@ -41,6 +42,19 @@ export default function Sig() {
               height={auto}
             />
           </a>
+          <a
+            href="https://www.instagram.com/smu.bia/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={email}
+              alt="email"
+              className="social-icon"
+              width={30}
+              height={auto}
+            />
+          </a>
         </div>
       </div>
       <div className="bar-items">
@@ -53,8 +67,8 @@ export default function Sig() {
       <div className="bar-items">
       <Link to="/WhatWeDo#top"><h3 className="bar-item">What we do</h3></Link>
         <div className="bar-items-comps">
-        <p><Link to="/WhatWeDo#top">Workshops</Link></p>
-        <p><Link to="/WhatWeDo#top">Data Associate Programme</Link></p>
+        <p><Link to="/WhatWeDo#ourworkshops">Workshops</Link></p>
+        <p><Link to="/WhatWeDo#DAP">Data Associate Programme</Link></p>
         <p><Link to="/WhatWeDo#top">Featured projects</Link></p>
         </div>
       </div>
