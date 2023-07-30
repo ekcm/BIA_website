@@ -14,7 +14,7 @@
 }
 
 .logo-image {
-  height: 80px;
+  height: 40px;
   width: auto; /* Adjust the width automatically based on the height */
   object-fit: contain;
   opacity: 100%;

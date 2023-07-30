@@ -9,7 +9,7 @@ import BIANight from "../../assets/Get_involved_BIANight.jpg";
 export default function GetInvolvedBody() {
   return (
     <div>
-      <div className="datathon">
+      <div className="datathon" id="Datathon-2023">
         <div>
           <h1>Datathon 2023</h1>
           <p className="getinv-para">
@@ -56,7 +56,7 @@ export default function GetInvolvedBody() {
         </div>
       </div>
 
-      <div className="networking">
+      <div className="networking" id="Networking-Night-2023">
         <h1>Networking Night 2023</h1>
         <div className="container-row" id="networking-night-row">
           <div className="custom-container" id="block">
@@ -77,7 +77,7 @@ export default function GetInvolvedBody() {
         </div>
       </div>
 
-      <div className="bianight">
+      <div className="bianight" id="BIA-night-2023">
         <h1>BIA Night 2023</h1>
         <div className="container-row" id="bia-night-row">
           <img src={BIANight} alt="" className="GetInvImg" />
@@ -94,6 +94,11 @@ export default function GetInvolvedBody() {
             </p>
           </div>
         </div>
+      </div>
+
+      <div id="What-we-need-help-with">
+        <h1>What we need help with</h1>
+        <p className="getinv-para">We are currently looking to partner with more companies to bring greater value to our members and community. Do reach out to us at our email <a href="mailto: bia@sa.smu.edu.sg" id="email">here</a> if you are interested in working with us!</p>
       </div>
       <br></br>
     </div>

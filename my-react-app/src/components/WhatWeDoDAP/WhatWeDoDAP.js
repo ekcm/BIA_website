@@ -73,7 +73,7 @@ function DAP() {
       </div>
 
       <div>
-        <h1>Featured Projects</h1>
+        <h1 id="Featured-Projects">Featured Projects</h1>
         <div className="container-row">
           <div className="custom-container" id="card">
             <h6 className="card-text">ASL Fingerspelling Detection Tool</h6>

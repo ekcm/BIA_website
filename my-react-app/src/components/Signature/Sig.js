@@ -61,7 +61,7 @@ export default function Sig() {
       <Link to="/#top"><h3 className="bar-item">Home</h3></Link>
         <div className="bar-items-comps">
         <p><Link to="/#top">We are SMUBIA</Link></p>
-        <p><Link to="/#top">What we achieved</Link></p>
+        <p><Link to="/#Our-Partners">Our Partners</Link></p>
         </div>
       </div>
       <div className="bar-items">
@@ -69,14 +69,16 @@ export default function Sig() {
         <div className="bar-items-comps">
         <p><Link to="/WhatWeDo#ourworkshops">Workshops</Link></p>
         <p><Link to="/WhatWeDo#DAP">Data Associate Programme</Link></p>
-        <p><Link to="/WhatWeDo#top">Featured projects</Link></p>
+        <p><Link to="/WhatWeDo#Featured-Projects">Featured projects</Link></p>
         </div>
       </div>
       <div className="bar-items">
       <Link to="/GetInvolved#top"><h3 className="bar-item">Get involved</h3></Link>
         <div className="bar-items-comps">
-        <p><Link to="/GetInvolved#top">Past events with companies</Link></p>
-        <p><Link to="/GetInvolved#top">What we need help with</Link></p>
+        <p><Link to="/GetInvolved#Datathon-2023">Datathon 2023</Link></p>
+        <p><Link to="/GetInvolved#Networking-Night-2023">Networking Night 2023</Link></p>
+        <p><Link to="/GetInvolved#BIA-night-2023">BIA Night 2023</Link></p>
+        <p><Link to="/GetInvolved#What-we-need-help-with">What we need help with</Link></p>
         </div>
       </div>
       <div className="bar-items">

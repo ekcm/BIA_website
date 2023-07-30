@@ -81,6 +81,14 @@ h1 {
   justify-content: center;
 }
 
+#email{
+  color: #3CBEB4;
+}
+
+#email:hover{
+  color: #979797
+}
+
 @media (max-width: 992px) {
 
   /* Apply the following styles only for screens with a maximum width of 992px (adjust the value as needed) */

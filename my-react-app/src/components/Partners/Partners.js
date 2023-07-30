@@ -10,7 +10,7 @@ import tableau from "../../assets/Tableau-Emblem.png";
 
 function Partners() {
     return(
-        <div className="partners">
+        <div className="partners" id="Our-Partners">
             <div className="partner-row">
             <img src={sginno} alt=""/>
             <img src={ihis} alt=""/>
