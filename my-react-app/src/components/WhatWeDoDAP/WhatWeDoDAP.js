@@ -5,6 +5,10 @@ import DAP_image2 from "../../assets/What_we_do_DAP2.jpg";
 import Workshop_image1 from "../../assets/What_we_do_workshops1.jpg";
 import Workshop_image2 from "../../assets/What_we_do_workshops2.jpg";
 import Workshop_image3 from "../../assets/What_we_do_workshops3.jpg";
+import Lyrics_Machine from "../../assets/Lyrics-Machine.gif";
+import ASL from "../../assets/ASL.jpg";
+import Help_Htoo_Resale from "../../assets/Help-Htoo-Resale.jpg"
+
 
 function DAP() {
   // const [currentIndex, setCurrentIndex] = useState(0);
@@ -68,38 +72,38 @@ function DAP() {
         </div>
       </div>
 
-      {/* <div>
+      <div>
         <h1>Featured Projects</h1>
         <div className="container-row">
           <div className="custom-container" id="card">
-            <h4 className="card-text">Phyo</h4>
-            <br></br>
-            <img src={Workshop_image1} alt="" className="images" />
+            <h6 className="card-text">ASL Fingerspelling Detection Tool</h6>
+            <p className="para">By Jolene Yeo, Regine Tan, Rheza Paleva, Vicky Qu, Jowett (Mentor)</p>
+            <img src={ASL} alt="" className="images" />
             <p className="para">
-              Our curriculum directors organize introductory workshops that
-              cater to the members of all backgrounds and skill-level
+              As part of our DAP project, we delved into the realm of American Sign Language (ASL), exploring how we could harnass machine learning to create a model capable of detecting and spelling out the sign languages given from the user.
             </p>
+            <a href="https://github.com/auyeongweibin/asl" id="project-link">Github Link</a>
           </div>
           <div className="custom-container" id="card">
-            <h4 className="card-text">Regine</h4>
-            <br></br>
-            <img src={Workshop_image2} alt="" className="images" />
+            <h6 className="card-text">HDB Price prediction model</h6>
+            <p className="para">By Elijah Khor, Htoo Myat Naing, Ivan Yeo, Keng Boon, King Yeh (Mentor), Gabriel Sidik (Mentor)</p>
+            <img src={Help_Htoo_Resale} alt="" className="images" />
             <p className="para">
-              Our curriculum directors organize intermediate workshops that
-              cater to members who would like to further their technical
-              knowledge
+              We created new features for each individual flat using OneMap API such as coordinate data, postal code and distances from places of interest. We then clustered the data by sector code and coordinates, before comparing different Regression methods to find the optimal model
             </p>
+            <a href="https://github.com/ekcm/Help-Htoo-Resale" id="project-link">Github Link</a>
           </div>
           <div className="custom-container" id="card">
-            <h4 className="card-text">Elijah</h4>
-            <br></br>
-            <img src={Workshop_image3} alt="" className="images" />
+            <h6 className="card-text">Lyrics Machine</h6>
+            <p className="para">By Phyo, Rafe, Charmaine, Shu Rui, Gabriel Sidik (Mentor), Renata (Mentor)</p>
+            <img src={Lyrics_Machine} alt="" className="images" />
             <p className="para">
-              Clustering and Regression model to predict HDB Resale Flat prices
+              Ever wondered how cool it would be if we can use machine learning to generate some sick lyrics? That was exactly what went through our minds while writing the project proposal for SMUBIA's Data Associate Programme
             </p>
+            <a href="https://medium.com/smubia/the-dap-journey-lyrics-machine-95fcdc462182" id="project-link">Medium Link</a>
           </div>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }
