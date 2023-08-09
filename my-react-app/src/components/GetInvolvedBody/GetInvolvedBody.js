@@ -65,12 +65,10 @@ export default function GetInvolvedBody() {
             </h4>
             <p className="getinv-para">
               Our annual networking night aims to give students the opportunity
-              to explore and learn more about data analyst and data science
-              roles in various industries.
+              to explore and learn more about various data roles in various industries.
             </p>
             <p className="getinv-para">
-              Students were given the opportunity to interact with HR and data
-              representatives from the 9 participating companies.
+              Students were given the opportunity to interact with representatives from the 9 participating companies.
             </p>
           </div>
           <img src={NetworkingNight_img} alt="" className="GetInvImg" />
