@@ -6,7 +6,7 @@ import Workshop_image1 from "../../assets/What_we_do_workshops1.jpg";
 import Workshop_image2 from "../../assets/What_we_do_workshops2.jpg";
 import Workshop_image3 from "../../assets/What_we_do_workshops3.jpg";
 import Lyrics_Machine from "../../assets/Lyrics-Machine.gif";
-import ASL from "../../assets/ASL.jpg";
+import ASL from "../../assets/ASL2.jpg";
 import Help_Htoo_Resale from "../../assets/Help-Htoo-Resale.jpg"
 
 
