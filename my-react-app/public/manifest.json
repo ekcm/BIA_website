@@ -3,22 +3,22 @@
   "name": "Create React App Sample",
   "icons": [
     {
-      "src": "../src/assets/BIA Circle Logo.png",
+      "src": "../src/assets/BIA_Circle_Logo.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "../src/assets/BIA Circle Logo.png",
+      "src": "../src/assets/BIA_Circle_Logo.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "../src/assets/BIA Circle Logo.png",
+      "src": "../src/assets/BIA_Circle_Logo.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "start_url": "../src/assets/BIA Circle Logo.png",
+  "start_url": "../src/assets/BIA_Circle_Logo.png",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
