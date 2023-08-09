@@ -1,6 +1,6 @@
 # BIA_website
 
-Website is currently hosted on: https://64c6e06a61f7c941bb30c806--beautiful-mermaid-84aba5.netlify.app/#top
+Check us out on: https://smubia.com/
 
 cd into `my-react-app` directory using `cd .\my-react-app\`
 
